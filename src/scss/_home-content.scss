@@ -1,0 +1,96 @@
+header {
+    width: 100%;
+    height: 100vh;
+    background: url(../img/slider-chile-2.1.jpg) no-repeat 50% 50%;
+    background-size: cover;
+  }
+
+.carousel{
+    position: relative;
+    top: 0px;
+    z-index: -1;
+}
+
+.wrapper{
+    display: none;
+}
+
+.w-100{
+    width: 100%!important;
+    height: 70vh;
+}
+
+// Termina Top de la página.
+
+// Empieza divisor de Slogan.
+
+.content__divisor{
+    height: 20vw;
+    max-height: 20vh;
+    background-color: #cf102d;
+    position: relative;
+    border: solid 5px #ffffff;
+    border-right: none;
+    border-left: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h2 {
+        color: white;
+        text-align: center;
+        margin: 0px 33px;
+        font-size: 3vw;
+        line-height: 1.5;
+    }
+}
+
+@media(max-width: 786px) {
+    .w-100{
+        height: 50vh;
+    }
+    .content__archieve__search__bar_row {
+        margin-top: 10vh;
+    }
+}
+
+@media(max-width: 400px) {
+    .w-100{
+        height: 35vh;
+    }
+    .carousel{
+        top: 30px;
+    }
+}
+
+// Buscador de propiedades.
+
+.content__archieve__search{
+    height: 10vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.row{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.content__archieve__search__bar{
+    display: flex;
+    align-items: center;
+}
+
+.content__archieve__search__bar_row{
+    background-color: black;
+    color: white;
+    padding: 2vh 4vw;
+    border: 4px solid #cf102d;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.content__archieve__search__bar_col{
+    text-align: center
+}
